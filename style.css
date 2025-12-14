@@ -1,0 +1,76 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f9;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.score-board {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e0f7fa;
+  border-radius: 10px;
+}
+
+.score-board h2 {
+  color: #00796b;
+  margin: 0;
+}
+
+#current-score {
+  font-weight: bold;
+  font-size: 2em;
+  color: #004d40;
+}
+
+.dice-container {
+  margin: 30px 0;
+}
+
+.dice-icon {
+  font-size: 6em; /* Large size for the dice */
+  color: #e91e63; /* A vibrant color for the dice */
+  transition: transform 0.1s ease-out; /* Smooth animation for the roll */
+}
+
+#roll-button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+#roll-button:hover {
+  background-color: #c2185b;
+}
+
+#roll-button:active {
+  transform: translateY(2px);
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #555;
+  min-height: 20px;
+}
